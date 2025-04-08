@@ -1,0 +1,208 @@
+.container-fluid {
+  background: #000;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+
+.black {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listmenu {
+  margin-right: inherit;
+}
+
+.text1 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.text2 {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 37.983px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%;
+  text-transform: capitalize;
+}
+
+.text4 {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Roboto Condensed";
+  font-size: 26.217px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.text5 {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: "Roboto Condensed";
+  font-size: 26.217px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.text6 {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: lowercase;
+}
+
+.text7 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20.806px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 31.208px */
+  text-transform: capitalize;
+}
+
+.content-section .text6 {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.footer-section .text3 {
+  margin: 0 10px;
+}
+
+.card1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.btn1 {
+  width: 87px;
+  padding: 10px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.30);
+  border: none;
+}
+
+.card2 {
+  display: flex;
+  padding-bottom: 30.109px;
+  flex-direction: column;
+  gap: 32.877px;
+  flex-shrink: 0;
+  border-radius: 31.228px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+}
+
+::ng-deep .p-select {
+  background: transparent !important;
+  border: none !important;
+  color: #FFF;
+}
+
+.margin2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.marginTop {
+  margin-top: -17% !important;
+  position: relative;
+}
+
+
+
+@media (max-width: 500px) {
+  .text1 {
+    font-size: 30px;
+    margin-top: 20% !important;
+  }
+}
+
+@media (max-width: 1826px) {
+  .marginTop {
+    margin-top: -14% !important;
+    position: relative;
+  }
+}
+
+@media (max-width: 1492px) {
+  .marginTop {
+    margin-top: -10% !important;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 1290px) {
+  .marginTop {
+    margin-top: 0% !important;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 1030px) {
+  .marginTop {
+    margin-top: 2% !important;
+    position: relative;
+  }
+}
+
+
+@media (min-width: 1084px) {
+  .mobileItem2 {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 1084px) {
+  .mobileItem {
+    display: none !important;
+  }
+
+  .marginTop2 {
+    margin-top: 15%;
+  }
+
+  .img4{
+    width: 100%;
+  }
+}

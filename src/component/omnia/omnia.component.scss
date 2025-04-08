@@ -1,0 +1,561 @@
+.container-fluid {
+  background: #000;
+  color: #fff;
+}
+
+.text1 {
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 8.55px;
+}
+
+.text11 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: capitalize;
+  background: var(--Linear, linear-gradient(180deg, #FFF -63.24%, #999 136.76%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+
+.text3 {
+  color: #A6A6A6;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-transform: lowercase;
+}
+
+.text6 {
+  text-align: center;
+  font-family: "Big John PRO";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.18px;
+}
+
+.text7 {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: "Big John PRO";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text8 {
+  color: #A6A6A6;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+
+.text9 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+
+.text10 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 17.143px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.171px;
+  text-transform: capitalize;
+}
+
+.text12 {
+  color: #A6A6A6;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-transform: lowercase;
+}
+
+.text13 {
+  color: #BBB;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.542px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.165px;
+  text-transform: lowercase;
+}
+
+.text14 {
+  color: #A6A6A6;
+  font-family: Poppins;
+  font-size: 14.336px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.143px;
+  text-transform: lowercase;
+}
+
+.text15 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+
+.text16 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+
+.text17 {
+  color: #A6A6A6;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.13px;
+  text-transform: lowercase;
+  align-items: start !important;
+}
+
+.img1 {
+  width: 410px;
+  height: 218px;
+  flex-shrink: 0;
+
+}
+
+.btn1 {
+  display: flex;
+  width: 180px;
+  padding: 8.108px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.108px;
+  border-radius: 47.838px;
+  background: #FFF;
+  box-shadow: 0px 7.297px 40.703px 0px rgba(159, 120, 233, 0.56);
+  border: none;
+}
+
+.textbtn {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 18.649px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.559px;
+  text-transform: uppercase;
+}
+
+.card1 {
+  display: flex;
+  padding: 22px 67px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-right: 0.8px solid rgba(119, 109, 124, 0.40);
+  border-bottom: 0.8px solid rgba(119, 109, 124, 0.40);
+}
+
+.card2 {
+  display: flex;
+  padding: 22px 67px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 0.8px solid rgba(119, 109, 124, 0.40);
+}
+
+.card3 {
+  display: flex;
+  padding: 22px 67px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-right: 0.8px solid rgba(119, 109, 124, 0.40);
+}
+
+.card4 {
+  display: flex;
+  padding: 22px 67px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.text4 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: capitalize;
+  background: var(--Linear, linear-gradient(180deg, #FFF -63.24%, #999 136.76%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 300px;
+}
+
+.box {
+  border-radius: 12px;
+  border: 0.25px solid #6b6969;
+  background: rgba(214, 207, 226, 0.07);
+  display: flex;
+  padding: 28px 35px 32px 35px;
+  align-items: start;
+  backdrop-filter: blur(13.949999809265137px);
+}
+
+
+.blur {
+  backdrop-filter: blur(40px) !important;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.center-box {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.marginTop {
+  margin-top: 15%;
+}
+
+::ng-deep.p-megamenu {
+  background-color: unset !important;
+}
+
+::ng-deep.p-tabview-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+::ng-deep.p-tabview-panels {
+  padding: unset;
+}
+
+::ng-deep.p-tablist-tab-list {
+  background-color: unset !important;
+  color: rgba(255, 255, 255, 0.50) !important;
+}
+
+::ng-deep.p-tabpanels {
+  background-color: unset !important;
+  color: #FFF !important;
+}
+
+
+::ng-deep.p-tab-active {
+  color: #FFF !important;
+}
+
+::ng-deep.p-tablist-active-bar {
+  background: rgba(255, 255, 255, 0.50) !important;
+  border-color: #FFF !important;
+}
+
+
+.box2 {
+  display: inline-flex;
+  padding: 25.355px 18.747px 24.252px 19.85px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  border-radius: 13.233px;
+  border: 0.103px solid #555353;
+  background: rgba(214, 207, 226, 0.07);
+  backdrop-filter: blur(15.383708953857422px);
+}
+
+.btnform {
+  color: #000 !important;
+  display: flex;
+  padding: 13.233px 19.85px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.028px;
+  align-self: stretch;
+  border-radius: 13.233px;
+  background: #FFF;
+  border: none;
+  height: 12%;
+}
+
+.parallax {
+  transition: transform 0.3s ease-out;
+}
+
+
+.animate-fadeinleft {
+  opacity: 1;
+  transform: translateY(40%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeinleft.animate-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-fadeoutleft {
+  opacity: 1;
+  transform: translateY(-40%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeoutleft.animate-visible {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+
+/* انیمیشن Zoom In */
+.animate-zoomin {
+  opacity: 1;
+  transform: scale(1.5);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+.animate-zoomin.animate-visible {
+  opacity: 1;
+  transform: scale(0.05);
+}
+
+.animate-fadeout {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeout.animate-visible {
+  opacity: 0;
+  transform: scale(4.5);
+}
+
+
+
+.animate-fadeinleft1 {
+  opacity: 1;
+  transform: translateY(-50%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+
+.animate-fadeinleft2 {
+  opacity: 1;
+  transform: translateY(-250%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeinleft3 {
+  opacity: 1;
+  transform: translateY(-25%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+
+
+.animate-fadeinright {
+  opacity: 1;
+  transform: translateX(145%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeinright1 {
+  opacity: 1;
+  transform: translateX(230%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+
+/* انیمیشن Flip Left */
+.animate-flipleft {
+  opacity: 1;
+  transform: perspective(1000px) rotateY(-360deg);
+  transform-origin: left;
+  transition: opacity 3s ease-out, transform 3s ease-out;
+}
+
+
+
+.animate-fadeinleftt {
+  opacity: 1;
+  transform: translateX(-7%);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}
+
+.animate-fadeinright3 {
+  opacity: 1;
+  transform: translateX(-115%);
+  transition: opacity 2s ease-out, transform 3s ease-out;
+}
+
+
+::ng-deep.p-button {
+  background-color: unset !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+
+
+
+
+// ---------------------------------
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+::ng-deep .p-dialog {
+  display: flex !important;
+  width: 70vw !important;
+  height: 70vh !important;
+  background-color: #000000 !important;
+}
+
+::ng-deep .p-inputtext {
+  background-color: unset !important;
+  color: #FFF !important;
+}
+
+::ng-deep .p-dialog {
+  border: none !important;
+}
+
+::ng-deep .p-button-text.p-button-secondary {
+  color: #FFF !important;
+}
+
+::ng-deep span.p-button-label.ng-star-inserted {
+  background-color: #FFF !important;
+}
+
+.box3 {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.input1 {
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.inputText {
+  color: #CBCBCB;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  text-transform: capitalize;
+}

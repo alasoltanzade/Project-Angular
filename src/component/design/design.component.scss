@@ -1,0 +1,84 @@
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.text1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 65.866px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116%;
+  text-transform: uppercase;
+}
+
+.text2 {
+  width: 700px;
+  color: rgba(255, 255, 255, 0.80);
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 32.217px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 124%;
+}
+
+.btn1 {
+  border: none;
+  display: flex;
+  width: 188.29px;
+  padding: 10.739px 20.046px 12.887px 20.046px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.159px;
+  background: #D8AA72;
+  color: #FFF;
+  font-family: Rosario;
+  font-size: 22.91px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: 0.458px;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Rosario;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 124%;
+}
+
+.btn2 {
+  background-color: unset;
+  display: flex;
+  width: 188.29px;
+  padding: 10.739px 20.046px 12.887px 20.046px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.159px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: Rosario;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124%;
+  letter-spacing: 0.44px;
+}

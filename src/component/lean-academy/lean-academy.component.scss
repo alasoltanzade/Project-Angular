@@ -1,0 +1,237 @@
+.text1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #224250;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.marginY {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.text2 {
+  align-self: stretch;
+  color: var(--TLA-Primery, #225163);
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 112.935%;
+}
+
+.text3 {
+  color: #4E7280;
+  font-family: "Source Sans Pro";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn1 {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #07D673;
+  color: var(--TLA-Primery, #225163);
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+}
+
+.text4 {
+  color: var(--TLA-Primery, #225163);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text5 {
+  color: #4E7280;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text6 {
+  color: var(--TLA-Primery, #225163);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137.415%;
+}
+
+.text7 {
+  color: var(--TLA-Secendary, #07D673);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text8 {
+  color: var(--TLA-Primery, #225163);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text9 {
+  color: #4E7280;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text10 {
+  color: var(--TLA-Secendary, #07D673);
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.text11 {
+  color: var(--T, #1E293B);
+  font-family: Poppins;
+  font-size: 44.069px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text12 {
+  color: #576E77;
+  font-family: "Source Sans Pro";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card1 {
+  display: flex;
+  width: 100%;
+  padding: 40px 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 4px;
+  background: #07D673;
+  box-shadow: 0px 9px 26.7px 0px rgba(0, 0, 0, 0.12);
+}
+
+.text13 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text14 {
+  color: rgba(34, 64, 78, 0.80);
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card2 {
+  display: flex;
+  width: 100%;
+  padding: 50px 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #26424D;
+}
+
+.line {
+  opacity: 0.15;
+  background: #FFF;
+  width: 100%;
+  height: 3px;
+}
+
+.text15 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+.text18 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card3 {
+  display: flex;
+  width: 390px;
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #26424D;
+}
+
+
+@media (max-width: 426px) {
+  .largItem {
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 426px) {
+  .mobileItem {
+    display: none !important;
+  }
+}

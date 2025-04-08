@@ -1,0 +1,83 @@
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col position-relative d-flex justify-content-end align-items-end" style="overflow: hidden;">
+      <img src="r8Pro/Gradient_24 1.svg" class="w-50">
+      <div class="d-flex justify-content-between m-4 position-absolute top-0 start-0 w-100">
+        <p-megamenu [model]="items" />
+        <img src="r8Pro/list-light 1.svg" class="listmenu me-5" style="background: url(<path-to-image>) rgb(0, 0, 0) -121.284px -30.317px / 155.763% 113.355% no-repeat;
+mix-blend-mode: plus-lighter;">
+      </div>
+      <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <div class="text1">OUR BLOG</div>
+        <span class="text11">Lorem ipsum dolor sit amet, consectetur adipiscing eli</span>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="marginTop">
+    <div class="row margin1">
+      <div class="col d-flex justify-content-between my-5 flex-wrap">
+        <div class="card11">
+          <button class="btn11 white">tags</button>
+          <button class="btn11 white">tags</button>
+          <button class="btn11 white">tags</button>
+          <button class="btn11 white">tags</button>
+        </div>
+        <button class="btn11 white d-flex">
+          <img src="r8Pro/funnel-thin 1.svg">
+          CATEGORY
+        </button>
+      </div>
+    </div>
+
+    <div class="row margin1" *ngFor="let row of cards | chunk:3">
+      <div class="col-md-4 col-12" *ngFor="let card of row">
+        <div class="card12 mb-4">
+          <div class="half-height-background"></div>
+          <span class="text7 p-3 pt-0">{{ card.title }}</span>
+          <div class="d-flex justify-content-between mx-3">
+            <div class="">
+              <img src="r8Pro/chats-teardrop-thin 1.svg">
+              <img src="r8Pro/heart-thin 1.svg">
+            </div>
+            <div class="">
+              <img src="r8Pro/bookmark-thin 1.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col position-relative d-flex justify-content-center align-items-center" style="overflow: hidden;">
+      <img src="r8Pro/Gradient_14 1.svg" class="w-85">
+      <div class="position-absolute top-0 start-0 w-100 h-100"
+        style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.17) 0%, rgba(0, 0, 0, 0.74) 100%);"></div>
+      <div class="position-absolute bottom-0 start-50 translate-middle text-center">
+        <span class="text2 fw-bold text-nowrap">R8.pro</span>
+        <div class="d-flex justify-content-between mt-5">
+          <span class="text3">All Rights Reserved</span>
+          <span class="text3 mx-5">Terms and Conditions</span>
+          <span class="text3">Terms and Conditions</span>
+          <span class="text3 ms-5">Privacy Policy</span>
+        </div>
+        <div class="d-flex justify-content-between mt-5 margin2">
+          <img src="r8Pro/Facebook.svg" class="">
+          <img src="r8Pro/Twitter.svg" class="">
+          <img src="r8Pro/Instagram.svg" class="">
+          <img src="r8Pro/LinkedIn.svg" class="">
+          <img src="r8Pro/YouTube.svg" class="">
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 start-0 m-3">
+        <p-select [options]="language" optionLabel="name" placeholder="English" class="w-full md:w-56 white" />
+      </div>
+    </div>
+  </div>
+
+</div>

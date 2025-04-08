@@ -1,0 +1,547 @@
+.container-fluid {
+  background: linear-gradient(0deg, #F1F3FB 0%, #F1F3FB 100%), #FFF;
+}
+
+.header {
+  padding: 15.875px 52.918px;
+  gap: 26.459px;
+  border-radius: 31.751px;
+  background: #FFF;
+  box-shadow: 0px 10.584px 10.584px 0px rgba(160, 211, 225, 0.17);
+}
+
+.text1 {
+  color: #55768B;
+  text-align: right;
+  font-family: "Baloo 2";
+  font-size: 20.467px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.93px;
+  /* 141.352% */
+  letter-spacing: 0.614px;
+}
+
+.btn1 {
+  border: none;
+  display: flex;
+  width: 169.337px;
+  padding: 13.362px 10.715px 10.715px 10.715px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.715px;
+  border-radius: 18.521px;
+  background: var(--Linear, linear-gradient(89deg, #30BBBE -0.03%, #3E82DD 101.64%));
+  box-shadow: 0px 10.584px 10.584px 0px rgba(47, 141, 194, 0.16);
+  color: #FFF;
+  text-align: right;
+  font-family: "Baloo 2";
+  font-size: 20.467px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.93px;
+  letter-spacing: 0.614px;
+}
+
+.text2 {
+  font-family: Bungee;
+  font-size: 88.887px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.496px;
+  background: var(--Linear, linear-gradient(89deg, #30BBBE -0.03%, #3E82DD 101.64%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text3 {
+  color: #6E7C84;
+  font-family: "Baloo 2";
+  font-size: 26.69px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text4 {
+  color: var(--T, #003465);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 55.68px;
+}
+
+.text5 {
+  color: #003465;
+  font-family: "Baloo 2";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.text6 {
+  color: var(--P, #616463);
+  font-family: "Baloo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 144px;
+  width: 300px;
+}
+
+.card1 {
+  width: 859.478px;
+  height: 317.889px;
+  border-radius: 23.547px;
+  background: var(--Linear, linear-gradient(89deg, #30BBBE -0.03%, #3E82DD 101.64%));
+  box-shadow: 0px 4.281px 38.425px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card2 {
+  width: 407.797px;
+  height: 317.889px;
+  border-radius: 23.547px;
+  background: linear-gradient(202deg, #EA2531 14.13%, #AD1620 100.32%);
+  box-shadow: 0px 4.281px 38.425px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 20px;
+}
+
+.card2-image {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.text7 {
+  color: #FFF;
+  font-family: "Baloo 2";
+  font-size: 28.899px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42.813px;
+  /* 148.148% */
+  text-transform: capitalize;
+}
+
+.text8 {
+  color: rgba(255, 255, 255, 0.98);
+  font-family: "Baloo 2";
+  font-size: 19.266px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card3 {
+  width: 407.797px;
+  height: 368.195px;
+  border-radius: 23.547px;
+  background: #FFF;
+  box-shadow: 0px 188.379px 52.446px 0px rgba(0, 0, 0, 0.00), 0px 120.948px 48.165px 0px rgba(0, 0, 0, 0.00), 0px 67.431px 40.673px 0px rgba(0, 0, 0, 0.01), 0px 29.969px 29.969px 0px rgba(0, 0, 0, 0.01), 0px 7.492px 16.055px 0px rgba(0, 0, 0, 0.01), 0px 0px 0px 0px rgba(0, 0, 0, 0.01);
+  position: relative;
+}
+
+.card3-image {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  max-width: 100px;
+  height: auto;
+}
+
+.card4-image {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  max-width: 100px;
+  height: auto;
+}
+
+.card4 {
+  position: relative;
+  width: 407.797px;
+  height: 368.195px;
+  border-radius: 23.547px;
+  background: linear-gradient(244deg, #3F84DC 7.51%, #2F70C4 94.66%);
+  box-shadow: 0px 4.281px 38.425px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.card5 {
+  display: flex;
+  padding-top: 49px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18.83px;
+  align-self: stretch;
+  border-top: 1px solid #CFCFCF;
+}
+
+.text9 {
+  color: #003465;
+  font-family: "Baloo 2";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35.84px;
+}
+
+.text10 {
+  color: #222;
+  font-family: "Baloo 2";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.98px;
+}
+
+.box1 {
+  display: flex;
+  border-radius: 30.65px;
+  background: #FFF;
+}
+
+.box2 {
+  display: flex;
+  width: 229px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #FFF;
+}
+
+.btn2 {
+  display: flex;
+  padding: 20.433px;
+  justify-content: center;
+  align-items: center;
+  gap: 20.433px;
+  border-radius: 28.607px;
+  background: #318DC1;
+  color: #FFF;
+  font-family: "Baloo 2";
+  font-size: 21.569px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  border: none;
+
+  &:hover {
+    background-color: #003465;
+    transform: translateY(-2px);
+  }
+}
+
+.txt {
+  display: flex;
+  padding: 20.433px;
+  justify-content: center;
+  align-items: center;
+  gap: 20.433px;
+  color: var(--Neutral-Text-Text1, #3D3E4A);
+  font-family: "Baloo 2";
+  font-size: 21.569px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.txt1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  color: #3193C1;
+  font-family: "Baloo 2";
+  font-size: 21.569px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  opacity: 0.45;
+}
+
+.btn3 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #318DC1;
+  color: #FFF;
+  font-family: "Baloo 2";
+  font-size: 21.569px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  border: none;
+}
+
+.box3 {
+  display: flex;
+  width: 414.118px;
+  padding: 34.51px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20.713px;
+  align-self: stretch;
+  border-radius: 34.51px;
+  background: var(--Neutral-Background-Background3, #FFF);
+}
+
+.text11 {
+  color: var(--Neutral-Text-Text1, #3D3E4A);
+  font-family: "Baloo 2";
+  font-size: 21.569px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.text12 {
+  color: #318DC1;
+  font-family: "Baloo 2";
+  font-size: 41.427px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.539px;
+}
+
+.text13 {
+  color: var(--Neutral-Text-Text1, #3D3E4A);
+  font-family: "Baloo 2";
+  font-size: 17.255px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+}
+
+.text14 {
+  color: #5B6882;
+  font-family: "Baloo 2";
+  font-size: 18.333px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+  text-transform: capitalize;
+  width: 301.961px;
+}
+
+.btn4 {
+  display: flex;
+  width: 344.593px;
+  padding: 12.878px 10.327px 10.327px 10.327px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.327px;
+  border-radius: 17.851px;
+  background: #318DC1;
+  box-shadow: 0px 10.2px 10.2px 0px rgba(47, 141, 194, 0.16);
+  border: none;
+  color: #FFF;
+  text-align: right;
+  font-family: "Baloo 2";
+  font-size: 19.726px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.883px;
+  letter-spacing: 0.592px;
+}
+
+.text15 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 55.68px;
+}
+
+.text16 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.card6 {
+  display: flex;
+  padding: 27.88px 52.918px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 26.459px;
+  align-self: stretch;
+  border-radius: 31.751px;
+  background: #FFF;
+  box-shadow: 0px 10.584px 10.584px 0px rgba(160, 211, 225, 0.17);
+}
+
+.card7 {
+  display: flex;
+  padding: 40.744px 26.089px 40.071px 27.377px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 29.608px;
+  background: var(--Neutral-Background-Background3, #FFF);
+}
+
+.text17 {
+  color: var(--Neutral-Text-Text2, #666E80);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 22.944px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+
+.btn5 {
+  display: flex;
+  width: 108.255px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.253px;
+  border-radius: 28.683px;
+  background: rgba(49, 141, 193, 0.11);
+  color: #318DC1;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 13.879px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-transform: capitalize;
+  border: none;
+}
+
+.text18 {
+  color: var(--Neutral-Text-Text3, #98A1B3);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 14.804px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 252.795px;
+  letter-spacing: -0.463px;
+}
+
+.card8 {
+  display: flex;
+  width: 1313px;
+  height: 694.612px;
+  padding: 22.56px 45.12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 24.816px;
+  background: #FFF;
+  box-shadow: 0px 198.529px 55.272px 0px rgba(0, 0, 0, 0.00), 0px 127.465px 50.76px 0px rgba(0, 0, 0, 0.00), 0px 71.064px 42.864px 0px rgba(0, 0, 0, 0.01), 0px 31.584px 31.584px 0px rgba(0, 0, 0, 0.01), 0px 7.896px 16.92px 0px rgba(0, 0, 0, 0.01), 0px 0px 0px 0px rgba(0, 0, 0, 0.01);
+}
+
+.text19 {
+  color: #414141;
+  text-align: right;
+  font-family: "Baloo 2";
+  font-size: 40.796px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.text20 {
+  color: #98A1B3;
+  font-family: "Baloo 2";
+  font-size: 20.304px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input1 {
+  border-radius: 17.177px;
+  background: #F5F5F5;
+  display: flex;
+  height: 58.656px;
+  padding: 11.28px 27.072px;
+  align-items: center;
+  gap: 11.28px;
+  align-self: stretch;
+  border: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26" fill="none"><path d="M20.8709 23.5062C22.7237 23.0299 24.0929 21.3483 24.0929 19.3469V6.46379C24.0929 4.09208 22.1702 2.16943 19.7985 2.16943H6.91545C4.54374 2.16943 2.62109 4.09208 2.62109 6.46379V19.3469C2.62109 21.3483 3.99026 23.0299 5.84305 23.5062M20.8709 23.5062C20.5281 23.5944 20.1688 23.6412 19.7985 23.6412H6.91545C6.54517 23.6412 6.18583 23.5944 5.84305 23.5062M20.8709 23.5062C20.7989 19.418 17.4624 16.1261 13.357 16.1261C9.25159 16.1261 5.91506 19.418 5.84305 23.5062M16.5778 9.68456C16.5778 7.90578 15.1358 6.46379 13.357 6.46379C11.5782 6.46379 10.1362 7.90578 10.1362 9.68456C10.1362 11.4633 11.5782 12.9053 13.357 12.9053C15.1358 12.9053 16.5778 11.4633 16.5778 9.68456Z" stroke="%23838383" stroke-width="1.61038"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 45px;
+}
+
+.input2 {
+  border-radius: 17.177px;
+  background: #F5F5F5;
+  display: flex;
+  height: 58.656px;
+  padding: 11.28px 27.072px;
+  align-items: center;
+  gap: 11.28px;
+  align-self: stretch;
+  border: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 27 26" fill="none"><path d="M16.5784 7.72966L15.1904 6.34162C14.7711 5.92236 14.7711 5.2426 15.1904 4.82334L16.5784 3.4353M20.8727 7.72966L19.4847 6.34162C19.0654 5.92236 19.0654 5.2426 19.4847 4.82334L20.8727 3.4353M23.0199 5.58248H19.7992M23.0199 18.8457V20.6127C23.0199 21.7986 22.0586 22.7599 20.8727 22.7599C11.3859 22.7599 3.69531 15.0693 3.69531 5.58248C3.69531 4.39663 4.65664 3.4353 5.84249 3.4353H7.60955C8.48754 3.4353 9.27708 3.96985 9.60316 4.78504L10.4767 6.96887C10.8914 8.00572 10.4422 9.18739 9.44333 9.68681L9.06326 9.87684C9.06326 9.87684 9.60006 12.5608 11.7472 14.708C13.8944 16.8552 16.5784 17.392 16.5784 17.392L16.7684 17.0119C17.2678 16.0131 18.4495 15.5638 19.4864 15.9785L21.6702 16.8521C22.4854 17.1782 23.0199 17.9677 23.0199 18.8457Z" stroke="%23838383" stroke-width="1.61038" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 45px;
+}
+
+.input3 {
+  border-radius: 17.177px;
+  background: #F5F5F5;
+  display: flex;
+  height: 58.656px;
+  padding: 11.28px 27.072px;
+  align-items: center;
+  gap: 11.28px;
+  align-self: stretch;
+  border: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 27 27" fill="none"><path d="M6.91545 8.99563L10.9749 11.7019C12.4174 12.6636 14.2966 12.6636 15.7391 11.7019L19.7985 8.99563M6.91545 22.9523H19.7985C22.1702 22.9523 24.0929 21.0296 24.0929 18.6579V7.92204C24.0929 5.55034 22.1702 3.62769 19.7985 3.62769H6.91545C4.54374 3.62769 2.62109 5.55034 2.62109 7.92204V18.6579C2.62109 21.0296 4.54374 22.9523 6.91545 22.9523Z" stroke="%23838383" stroke-width="1.61038" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 45px;
+}
+
+.text21 {
+  color: #003465;
+  font-family: "Baloo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.box4 {
+  padding: 7.92px 33.4px 6px 11px;
+  border-radius: 9px;
+  border: 1px solid #CDCDCD;
+  background: #FFF;
+}
+
+.marginY {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

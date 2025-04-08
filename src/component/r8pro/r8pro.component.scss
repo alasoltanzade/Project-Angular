@@ -1,0 +1,436 @@
+.container-fluid {
+  background: #000;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+
+.black {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listmenu {
+  margin-right: inherit;
+}
+
+::ng-deep.p-megamenu {
+  background: unset !important;
+  border: none !important;
+}
+
+::ng-deep.p-megamenu-button {
+  display: flex !important;
+  color: #FFF !important;
+}
+
+
+.text111 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+
+.text0 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 70.3px #000;
+  font-family: Layn;
+  font-size: 64.945px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  /* 93.52px */
+  text-transform: capitalize;
+}
+
+.text1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 30px #000;
+  font-family: Layn;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  text-transform: capitalize;
+}
+
+.text2 {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 37.983px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.text22 {
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%;
+  text-transform: capitalize;
+}
+
+.text4 {
+  color: #FFF;
+  font-family: "Montserrat Alternates";
+  font-size: 22.997px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109%;
+  text-transform: capitalize;
+}
+
+.btn1,
+.btn2 {
+  border-radius: 92px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  padding: 5px 40px;
+  margin: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.btn1 {
+  background: #FFF;
+  backdrop-filter: blur(18.132137298583984px);
+}
+
+.btn2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  color: #FFF;
+}
+
+.card1 {
+  border-radius: 92px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  display: flex;
+  width: 916px;
+  height: 78px;
+  padding: 21px 23px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.card11 {
+  border-radius: 20px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  padding: 11px 13px;
+}
+
+.btn3 {
+  border-radius: 52.454px;
+  background: transparent;
+  backdrop-filter: none;
+  display: flex;
+  height: 49.256px;
+  padding: 28px 17px;
+  align-items: center;
+  gap: 15.277px;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn3:hover {
+  border-radius: 52.454px;
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(11.598889350891113px);
+  color: white;
+}
+
+.card2 {
+  border-radius: 21.228px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23.881px;
+}
+
+.text6 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+::ng-deep p-accordion {
+  border-radius: 21.228px !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10) !important;
+  backdrop-filter: blur(40px) !important;
+  margin: 20px;
+  color: #FFF !important;
+  font-family: "Montserrat Alternates" !important;
+}
+
+::ng-deep p-accordion-panel {
+  margin: 20px;
+  color: #FFF !important;
+}
+
+::ng-deep p-accordion-header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10) !important;
+  color: #FFF !important;
+}
+
+::ng-deep .p-accordion .open2 {
+  // background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10) !important;
+  color: #FFF;
+}
+
+::ng-deep p-accordion-content {
+  --p-accordion-content-background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
+    rgba(255, 255, 255, 0.10) !important;
+  background-color: var(--p-accordion-content-background) !important;
+  backdrop-filter: blur(40px) !important;
+}
+
+
+::ng-deep .p-select {
+  background: transparent !important;
+  border: none !important;
+  color: #FFF;
+}
+
+.accordin1 {
+  border-radius: 21.228px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+}
+
+
+.input1 {
+  border-radius: 12px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  flex: 1 0 0;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: Poppins;
+  font-size: 15.955px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109%;
+}
+
+.white-placeholder::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.blur {
+  backdrop-filter: blur(40px) !important;
+}
+
+.content-section {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.margin1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.margin2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.margin3 {
+  margin-top: -20%;
+}
+
+.margin4 {
+  margin-bottom: -10%;
+}
+
+
+
+
+@media (max-width: 1440px) {
+
+  .text1,
+  .text0 {
+    font-size: 40px !important;
+    line-height: 120% !important;
+  }
+
+  .text2,
+  .text22 {
+    font-size: 30px !important;
+    line-height: 120% !important;
+  }
+
+  .margin4 {
+    margin-bottom: 0%;
+  }
+
+  .marginbottom1 {
+    margin-top: 20%;
+  }
+}
+
+
+
+
+@media (max-width: 1084px) {
+
+  .text1,
+  .text0 {
+    font-size: 32px !important;
+    line-height: 120% !important;
+  }
+
+  .text2,
+  .text22 {
+    font-size: 20px !important;
+    line-height: 120% !important;
+  }
+
+  .text3 {
+    font-size: 16px !important;
+    line-height: 120% !important;
+  }
+
+  .text4 {
+    font-size: 18px !important;
+    line-height: 120% !important;
+  }
+
+  .btn1,
+  .btn2 {
+    margin: 0%;
+    padding: 0% !important;
+    font-size: 14px !important;
+  }
+
+  .margin4 {
+    margin-bottom: 0%;
+  }
+
+  .margin3 {
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 868.98px) {
+
+  .text1,
+  .text0 {
+    font-size: 25px !important;
+    line-height: 120% !important;
+  }
+
+  .text2,
+  .text22 {
+    font-size: 15px !important;
+    line-height: 120% !important;
+  }
+
+  .margin4 {
+    margin-bottom: 0%;
+  }
+
+  .btn1,
+  .btn2 {
+    margin: 0%;
+    padding: 0% !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 868px) {
+  .marginY {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 426px) {
+
+  .largItem,
+  .mediumItem {
+    display: none !important;
+  }
+
+  .mobileItem {
+    display: block !important;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1024px) {
+
+  .largItem,
+  .mobileItem {
+    display: none !important;
+  }
+
+  .mediumItem {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1025px) {
+
+  .mobileItem,
+  .mediumItem {
+    display: none !important;
+  }
+
+  .largItem {
+    display: block !important;
+  }
+}

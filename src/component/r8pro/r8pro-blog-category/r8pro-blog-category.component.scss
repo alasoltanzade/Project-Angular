@@ -1,0 +1,232 @@
+.container-fluid {
+  background: #000;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listmenu {
+  margin-right: inherit;
+}
+
+.text1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 70.3px #000;
+  font-family: Layn;
+  font-size: 64.945px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  /* 93.52px */
+  text-transform: capitalize;
+}
+
+.text11 {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.5%;
+  /* 25.305px */
+  text-transform: capitalize;
+}
+
+.text2 {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 37.983px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  /* 41.401px */
+  text-transform: capitalize;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 0.85);
+  /* P1 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%;
+  /* 22.56px */
+  text-transform: capitalize;
+}
+
+
+.text7 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+
+
+.input1 {
+  border-radius: 12px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  display: flex;
+  padding: 5px 12px;
+  align-items: center;
+  gap: 23.881px;
+  flex: 1 0 0;
+  color: #FFF;
+}
+
+.blur {
+  backdrop-filter: blur(18.132px) !important;
+}
+
+.card11 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.btn11 {
+  padding: 10px 25px;
+  border-radius: 99px;
+  border-radius: 99px;
+  background: #4C4C4C;
+  border: none;
+}
+
+.btn11:hover {
+  border-radius: 52.454px;
+  color: #4C4C4C;
+  backdrop-filter: blur(11.598889350891113px);
+  background: white;
+}
+
+.card12 {
+  display: flex;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 30.109px;
+  flex-direction: column;
+  gap: 32.877px;
+  flex-shrink: 0;
+  border-radius: 21.228px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+}
+
+.half-height-background {
+  height: 50%;
+  width: 100%;
+  background: #D9D9D9;
+  border-radius: 1rem 1rem 0 0;
+}
+
+
+.half-height-background {
+  background: #D9D9D9;
+  height: 180px;
+  width: 100%;
+}
+
+::ng-deep .p-select {
+  background: transparent !important;
+  border: none !important;
+  color: #FFF;
+}
+
+.margin1 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.margin2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.marginTop {
+  margin-top: -17% !important;
+  position: relative;
+}
+
+
+@media (max-width: 1440px) {
+  .marginTop {
+    margin-top: -15% !important;
+    position: relative;
+  }
+
+  .margin1 {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .text1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .marginTop {
+    margin-top: -10% !important;
+    position: relative;
+  }
+
+  .margin1 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .text1 {
+    font-size: 45px;
+  }
+}
+
+
+@media (max-width: 987px) {
+  .marginTop {
+    margin-top: -8% !important;
+    position: relative;
+  }
+
+  .margin1 {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .text1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 588px) {
+  .btn11.d-flex {
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .card11{
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,338 @@
+.container-fluid {
+  background: #000;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+
+.black {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listmenu {
+  margin-right: inherit;
+}
+
+.text1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 70.3px #000;
+  font-family: Layn;
+  font-size: 64.945px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144%;
+  /* 93.52px */
+  text-transform: capitalize;
+}
+
+.text2 {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 37.983px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  /* 41.401px */
+  text-transform: capitalize;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 0.85);
+  /* P1 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%;
+  /* 22.56px */
+  text-transform: capitalize;
+}
+
+.text4 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 39.409px;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.card2 {
+  border-radius: 21.228px;
+  border: 0.884px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18.132137298583984px);
+  display: flex;
+  padding: 42.456px 18.845px;
+  flex-direction: column;
+  align-items: center;
+  gap: 23.881px;
+}
+
+.blur {
+  backdrop-filter: blur(18.132px) !important;
+}
+
+.img3 {
+  width: 90%;
+}
+
+.card3 {
+  width: 100%;
+  border-radius: 16.213px;
+  border: 0.676px solid rgba(255, 255, 255, 0.42);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18px);
+  display: flex;
+  width: max-content;
+  z-index: 1;
+  padding: 12px 23.5px 12.34px 23.5px;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 12px;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 767.98px) {
+  .margin4 {
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .margin4 {
+    margin-top: 6%;
+  }
+}
+
+.btn3 {
+  border-radius: 52.454px;
+  background: transparent;
+  backdrop-filter: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 10px;
+  color: white;
+  border: none;
+
+  @media (max-width: 768px) {
+    display: inline;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+
+    .img2 {
+      background-color: unset;
+      width: 35px;
+    }
+  }
+}
+
+.btn3:hover {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(11.598889350891113px);
+  color: white;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+}
+
+.btn4 {
+  border-radius: 52.454px;
+  background: transparent;
+  backdrop-filter: none;
+  display: flex;
+  height: 49.256px;
+  padding: 28px 17px;
+  align-items: center;
+  gap: 15.277px;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn4:hover {
+  border-radius: 52.454px;
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(11.598889350891113px);
+}
+
+.img2 {
+  border-radius: 12.16px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 5px;
+}
+
+.margin1 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+::ng-deep .p-select {
+  background: transparent !important;
+  border: none !important;
+  color: #FFF;
+}
+
+.margin2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.marginbottom {
+  margin-bottom: 20%;
+}
+
+.margin3 {
+  margin: 20%;
+  margin-left: 0%;
+}
+
+
+@media (min-width: 767.98px) {
+  .card-image {
+    position: absolute; // عکس را نسبت به کارد موقعیت‌دهی می‌کند
+    bottom: 0; // عکس به پایین کارد می‌چسبد
+    left: 50%; // عکس را در وسط کارد قرار می‌دهد
+    transform: translateX(-50%); // برای وسط‌چین کردن عکس
+    max-width: 100%; // عکس از کادر خارج نمی‌شود
+    height: auto; // نسبت ابعاد تصویر حفظ می‌شود
+    object-fit: cover; // تصویر کل فضای خود را پر می‌کند
+  }
+
+
+}
+
+
+
+@media (max-width: 1440px) {
+  .text1 {
+    font-size: 40px !important;
+    line-height: 120% !important;
+  }
+
+  .text2 {
+    font-size: 30px !important;
+    line-height: 120% !important;
+  }
+
+  .margin1 {
+    margin-bottom: 0%;
+  }
+
+  .marginbottom1 {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 1084px) {
+  .card4sec {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 1084px) {
+  .card3sec {
+    display: none !important;
+  }
+
+  .text1 {
+    font-size: 32px !important;
+    line-height: 120% !important;
+  }
+
+  .text2 {
+    font-size: 20px !important;
+    line-height: 120% !important;
+  }
+
+  .text3 {
+    font-size: 16px !important;
+    line-height: 120% !important;
+  }
+
+  .text4 {
+    font-size: 18px !important;
+    line-height: 120% !important;
+  }
+
+  .card3 {
+    flex-wrap: wrap;
+    width: 72% !important;
+  }
+
+  .btn4 {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .btn4 img {
+    margin-right: 8px;
+  }
+
+}
+
+
+
+@media (max-width: 767.98px) {
+  .img-fluid {
+    max-width: 75% !important;
+  }
+
+  .img3 {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 868.98px) {
+  .text1 {
+    font-size: 25px !important;
+    line-height: 120% !important;
+  }
+
+  .text2 {
+    font-size: 15px !important;
+    line-height: 120% !important;
+  }
+}
+
+
+@media (max-width: 426px) {
+  .text1 {
+    font-size: 20px !important;
+    line-height: 120% !important;
+  }
+
+  .text2 {
+    font-size: 12px !important;
+    line-height: 120% !important;
+  }
+
+}
