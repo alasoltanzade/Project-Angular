@@ -4,3 +4,9 @@
 
 [environment]
   NODE_VERSION = "18"
+
+[[plugins]]
+package = "@netlify/angular-runtime"
+
+  [plugins.inputs]
+  disabled = true
